@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedTeamDev - Red Team Developer Portfolio</title>
+    <link rel="icon" type="image/png" href="white.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+</head>
+<body>  
+    <main>
+        <!-- ===== HERO SECTION ===== -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <!-- Left: Text Content -->
+                    <div class="hero-text">
+                        <h1 class="hero-title">Hello, I'm <span class="highlight">whitehats</span></h1>
+                        <p class="hero-subtitle">Computer Science Undergraduate | Information Security Specialist</p>
+                        <div class="hero-meta">
+                            <span class="meta-item"><i class="bi bi-code"></i> Security Researcher</span>
+                            <span class="meta-item"><i class="bi bi-shield-check"></i> Ethical Hacker</span>
+                            <span class="meta-item"><i class="bi bi-laptop"></i> Developer</span>
+                        </div>
+                    </div>
+
+                    <!-- Right: Image -->
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-frame">
+                            <img src="white.png" alt="Hacker" class="hero-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ABOUT SECTION ===== -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p class="about-text">I am a developer passionate about learning red teaming and cybersecurity. I focus on understanding offensive security techniques, mastering tools like Metasploit, Burp Suite, and Wireshark, while building robust applications. My journey involves continuous learning in ethical hacking, vulnerability assessment, and secure coding practices.</p>
+                    
+                    <div class="about-focus">
+                        <h3 class="focus-title">Focus Areas</h3>
+                        <div class="focus-grid">
+                            <div class="focus-item">
+                                <i class="bi bi-shield-check"></i>
+                                <span>Penetration Testing</span>
+                            </div>
+                            <div class="focus-item">
+                                <i class="bi bi-code"></i>
+                                <span>Secure Coding</span>
+                            </div>
+                            <div class="focus-item">
+                                <i class="bi bi-bug"></i>
+                                <span>Vulnerability Analysis</span>
+                            </div>
+                            <div class="focus-item">
+                                <i class="bi bi-diagram-3"></i>
+                                <span>Network Security</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SKILLS SECTION ===== -->
+        <section id="projects" class="skills-showcase">
+            <div class="container">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-showcase-grid">
+                    <div class="skill-badge">Python</div>
+                    <div class="skill-badge">Burp Suite</div>
+                    <div class="skill-badge">Metasploit</div>
+                    <div class="skill-badge">Wireshark</div>
+                    <div class="skill-badge">Nmap</div>
+                    <div class="skill-badge">Hydra</div>
+                    <div class="skill-badge">SQLMap</div>
+                    <div class="skill-badge">Aircrack-ng</div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- ===== NEWSLETTER SECTION ===== -->
+        <section id="newsletter" class="newsletter">
+            <div class="container">
+                <div class="newsletter-content">
+                    <h2 class="section-title">Stay Updated</h2>
+                    <p class="newsletter-subtitle">Subscribe to my email list to get the latest updates</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <div class="form-group">
+                            <input 
+                                type="email" 
+                                class="email-input" 
+                                placeholder="Enter your email" 
+                                required
+                            >
+                            <button type="submit" class="btn subscribe-btn">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <p class="footer-quote">Depth over breadth. Master Burp Suite and Python deeply rather than superficially <br> knowing 50 tools.. <a href="https://x.com" target="_blank" title="Follow on X">@whitehats</a></p>
+
+    </main>
+
+    <!-- ===== BOTTOM NAVBAR (FLOATING) ===== -->
+    <nav class="floating-nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-item" title="Home">
+                <i class="bi bi-house-fill"></i>
+            </a>
+            <div class="nav-divider">|</div>
+            <a href="https://github.com" target="_blank" class="nav-item" title="GitHub">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="nav-item" title="LinkedIn">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://x.com" target="_blank" class="nav-item" title="X">
+                <i class="bi bi-twitter-x"></i>
+            </a>
+            <a href="#newsletter" class="nav-item" title="Newsletter">
+                <i class="bi bi-envelope"></i>
+            </a>
+            <div class="nav-divider">|</div>
+            <button id="theme-toggle" class="nav-item theme-toggle" title="Toggle Theme">
+                <i class="bi bi-moon-fill"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== SCROLL TO TOP BUTTON ===== -->
+    <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
