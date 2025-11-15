@@ -141,11 +141,6 @@ body.light-theme .logo img {
     transform: scale(1.05);
 }
 
-#theme-toggle:hover {
-    transform: translateX(-50%) scale(1.3);
-    color: var(--accent);
-}
-
 #theme-toggle::before {
     content: '';
     position: absolute;
@@ -1133,14 +1128,6 @@ body.light-theme .hamburger {
     color: #1a1a1a;
 }
 
-#theme-toggle {
-    background: none;
-    border: none;
-    color: var(--accent);
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: color 0.3s ease;
-}
 
 body.light-theme #theme-toggle {
     color: #1a1a1a;
